@@ -178,6 +178,19 @@ public class QRPayTests
 
     #endregion
 
+    #region Personal VNPayQR (no GUID)
+    [Fact]
+    public void Personal_VNPayQR_Decode()
+    {
+        var qrPay = new QRPay("00020101021002020103069084010411VNPayWallet071003933571580809Lê Anh Tú09051000010037041107content63042678");
+        Assert.True(qrPay.IsValid);
+        Assert.Equal("01", qrPay.Version);
+        Assert.Null(qrPay.Provider.Name);
+        Assert.Null(qrPay.Provider.Guid);
+    }
+
+    #endregion
+
     #region Other QR Providers
 
     [Fact]
