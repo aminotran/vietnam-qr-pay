@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+    <LangVersion>latest</LangVersion>
+    <Nullable>enable</Nullable>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+    <PackageId>ICU.Lib.VietQR</PackageId>
+    <Version>1.0.0</Version>
+    <Authors>ICU</Authors>
+    <Description>Encode/Decode VietQR and VNPayQR (Vietnam QR Pay)</Description>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageTags>vietqr;vnpayqr;napas;napas247;qr-pay</PackageTags>
+    <RepositoryUrl>https://github.com/aminotran/vietnam-qr-pay</RepositoryUrl>
+  </PropertyGroup>
+
+</Project>

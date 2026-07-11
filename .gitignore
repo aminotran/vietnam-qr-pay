@@ -28,5 +28,18 @@ node_modules/
 .DS_Store
 Thumbs.db
 
+# Visual Studio
+.vs/
+
 # Build
 dist/
+
+# .NET / C# project
+csharp/**/[Bb]in/
+csharp/**/[Oo]bj/
+csharp/**/*.user
+csharp/**/.vs/
+csharp/**/packages/
+csharp/**/*.nupkg
+csharp/**/.nuget/
+csharp/**/NuGet.config
