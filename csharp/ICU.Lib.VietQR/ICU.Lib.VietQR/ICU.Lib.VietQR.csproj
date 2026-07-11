@@ -7,11 +7,17 @@
     <GenerateDocumentationFile>true</GenerateDocumentationFile>
     <PackageId>ICU.Lib.VietQR</PackageId>
     <Version>1.0.0</Version>
-    <Authors>ICU</Authors>
+    <Authors>Amino Tran</Authors>
     <Description>Encode/Decode VietQR and VNPayQR (Vietnam QR Pay)</Description>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <PackageTags>vietqr;vnpayqr;napas;napas247;qr-pay</PackageTags>
     <RepositoryUrl>https://github.com/aminotran/vietnam-qr-pay</RepositoryUrl>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
   </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="README.md" Pack="true" PackagePath="\" />
+  </ItemGroup>
 
 </Project>

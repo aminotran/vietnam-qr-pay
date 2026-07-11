@@ -1,0 +1,4 @@
+﻿dotnet clean
+Remove-Item -Recurse -Force bin, obj
+dotnet build --configuration Release
+dotnet nuget push 'D:\Git\vietnam-qr-pay\csharp\ICU.Lib.VietQR\ICU.Lib.VietQR\bin\Release\ICU.Lib.VietQR.1.0.0.nupkg' --api-key API_KEY --source https://api.nuget.org/v3/index.json
