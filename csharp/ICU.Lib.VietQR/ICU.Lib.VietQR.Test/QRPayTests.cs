@@ -258,7 +258,9 @@ public class QRPayTests
         Assert.NotEmpty(BanksObject.AllBanks);
         Assert.All(BanksObject.AllBanks, bank =>
         {
-            Assert.False(string.IsNullOrEmpty(bank.Bin));
+            // BIDC (Campuchia) không có BIN
+            if (bank.Key != "bidc")
+                Assert.False(string.IsNullOrEmpty(bank.Bin));
             Assert.False(string.IsNullOrEmpty(bank.Name));
             Assert.False(string.IsNullOrEmpty(bank.ShortName));
         });
