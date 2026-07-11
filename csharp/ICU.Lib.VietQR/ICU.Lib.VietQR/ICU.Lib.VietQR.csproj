@@ -6,7 +6,7 @@
     <Nullable>enable</Nullable>
     <GenerateDocumentationFile>true</GenerateDocumentationFile>
     <PackageId>ICU.Lib.VietQR</PackageId>
-    <Version>1.0.0</Version>
+    <Version>1.0.1</Version>
     <Authors>Amino Tran</Authors>
     <Description>Encode/Decode VietQR and VNPayQR (Vietnam QR Pay)</Description>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
